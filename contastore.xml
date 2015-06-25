@@ -9,5 +9,41 @@
         <tipo></tipo>
         <valor>0.0</valor>
     </contaList>
+    <contaList>
+        <data>04/06/2015</data>
+        <descricao>Cheque do Joao</descricao>
+        <id>1435196074066</id>
+        <idusuario>1435195975062</idusuario>
+        <pago>false</pago>
+        <tipo>Receita</tipo>
+        <valor>250.0</valor>
+    </contaList>
+    <contaList>
+        <data>23/06/2015</data>
+        <descricao>Material de Limpeza</descricao>
+        <id>1435196174777</id>
+        <idusuario>1435195975062</idusuario>
+        <pago>true</pago>
+        <tipo>Despesa</tipo>
+        <valor>75.69</valor>
+    </contaList>
+    <contaList>
+        <data>22/06/2015</data>
+        <descricao>Empregada</descricao>
+        <id>1435196194413</id>
+        <idusuario>1435195975062</idusuario>
+        <pago>true</pago>
+        <tipo>Despesa</tipo>
+        <valor>80.0</valor>
+    </contaList>
+    <contaList>
+        <data>29/06/2015</data>
+        <descricao>Empregada</descricao>
+        <id>1435196218226</id>
+        <idusuario>1435195975062</idusuario>
+        <pago>false</pago>
+        <tipo>Despesa</tipo>
+        <valor>80.0</valor>
+    </contaList>
     <nome>store</nome>
 </contaStore>

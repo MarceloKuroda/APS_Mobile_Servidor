@@ -6,4 +6,9 @@
         <login></login>
         <senha></senha>
     </usuarioList>
+    <usuarioList>
+        <idusuario>1435195975062</idusuario>
+        <login>Marcio Oizumi</login>
+        <senha>1</senha>
+    </usuarioList>
 </usuarioStore>
