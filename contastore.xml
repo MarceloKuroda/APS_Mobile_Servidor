@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contaStore>
+    <contaList>
+        <data></data>
+        <descricao></descricao>
+        <id>0</id>
+        <idusuario>0</idusuario>
+        <pago>false</pago>
+        <tipo></tipo>
+        <valor>0.0</valor>
+    </contaList>
+    <nome>store</nome>
+</contaStore>
