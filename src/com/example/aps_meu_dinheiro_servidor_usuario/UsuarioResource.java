@@ -49,8 +49,18 @@ public class UsuarioResource {
     @PUT
     @Produces(MediaType.TEXT_PLAIN)    
     public String update(@PathParam("id") long id, @PathParam("login") String login, @PathParam("senha") String senha) {
+    	String log = "";
+		for(int i = 0; i < login.length(); i++){
+			if (!String.valueOf(login.charAt(i)).equals("_")){
+				log += String.valueOf(login.charAt(i));
+			}
+			if (String.valueOf(login.charAt(i)).equals("_")){
+				log += String.valueOf(" ");
+			}
+		}
+    	
     	UsuarioXmlDAO dao = new UsuarioXmlDAO();
-    	return dao.update(id,  login, senha);
+    	return dao.update(id,  log, senha);
     }    
     
     @Path("{id}")
